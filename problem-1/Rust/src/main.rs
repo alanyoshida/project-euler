@@ -1,5 +1,5 @@
 fn main() {
-    println!("result={}", multiples_of_three_and_five_until(10));
+    println!("result={}", multiples_of_three_and_five_until(1000));
 }
 
 fn multiples_of_three_and_five_until(n:i32) -> i32 {
