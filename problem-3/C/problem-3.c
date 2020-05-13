@@ -40,8 +40,8 @@ void testIsPrime() {
   unitTests[2].returned = isPrime(7);
   unitTests[2].want = true;
 
-  unitTests[2].returned = isPrime(4);
-  unitTests[2].want = false;
+  unitTests[3].returned = isPrime(4);
+  unitTests[3].want = false;
 
   for(int i=0;i<SIZE;i++){
     if( unitTests[i].returned == unitTests[i].want){
